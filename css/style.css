@@ -1,0 +1,56 @@
+header{
+    background-image: url(/image/background/header.png);
+    background-repeat: no-repeat;
+}
+main{
+    background-image: url(/image/background/work.png);
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #212529;
+    height: 80%;
+}
+.banner-img{
+   width: 450px;
+   height: 400px;
+}
+.margin{
+    margin-top: 110px;
+}
+.btn-custom-color{
+    background: linear-gradient(#ff71aa -19.22%,#ff136f 118.87%);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.btn-custom-color:hover{
+    background: linear-gradient(#684efb .01%,#5a00dd 100.01%);
+    color: white;
+}
+.cat-img img{
+    transition: transform 3s;
+}
+.cat-img img:hover{
+    transform: scale(1.4);
+}
+.textarea{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 88px;
+    width: 350px;
+}
+.nav-list{
+    text-align: center;
+}
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.social-icon i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
