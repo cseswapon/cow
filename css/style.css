@@ -1,9 +1,9 @@
 header{
-    background-image: url(/image/background/header.png);
+    background-image: url(image/background/header.png);
     background-repeat: no-repeat;
 }
 main{
-    background-image: url(/image/background/work.png);
+    background-image: url(image/background/work.png);
     background-repeat: no-repeat;
 }
 footer{
@@ -15,7 +15,7 @@ footer{
    height: 400px;
 }
 .margin{
-    margin-top: 110px;
+    margin-top: 125px;
 }
 .btn-custom-color{
     background: linear-gradient(#ff71aa -19.22%,#ff136f 118.87%);
