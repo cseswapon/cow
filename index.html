@@ -67,16 +67,78 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">হেল্প</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">
                                         <img width="40" src="./image/swa.png" alt="login img">
                                     </a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img width="40" src="./image/swa.png" alt="login img">
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="singin.html"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                                    class="fas fa-sign-out-alt"></i> Sing Out</a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModaladd"><i class="fas fa-user-plus"></i> Add
+                                                Account</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </section>
+        </section>
+        <!-- Modal Sing Out -->
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ভেবে দেখেন আপনি যা করতে চাচ্ছেন তা কি ঠিক ?
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            সত্যি কি আপনি এটি করতে চাচ্ছেন ?
+                        </div>
+                        <div class="modal-footer">
+                            <form action="login.html">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">বন্ধ করুন</button>
+                                <button type="submit" class="btn btn-primary">চালিয়ে যান</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal Add Account -->
+        <section>
+            <div class="modal fade" id="exampleModaladd" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ভেবে দেখেন আপনি যা করতে চাচ্ছেন তা কি ঠিক ?
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            সত্যি কি আপনি এটি করতে চাচ্ছেন ?
+                        </div>
+                        <div class="modal-footer">
+                            <form action="singin.html">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">বন্ধ করুন</button>
+                                <button type="submit" class="btn btn-primary">চালিয়ে যান</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- carousol cow -->
         <section class="margin">
